@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <br>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="George" autofocus>
+            </div>
+            <div>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Devis">
+            </div>
+            <div>
+                <br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="male" value="Gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="female" value="Gender">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="other" value="Gender">
+            </div>
+            <div>
+                <br>
+                <span>Preferred contact method:</span>
+                <label for="email">Email</label>
+                <input type="radio" id="email" name="email" value="contact">
+                <label for="phone">Phone</label>
+                <input type="radio" id="phone" name="phone" value="contact">
+            </div>
+            <div>
+                <br>
+                <label for="eml">Email</label>
+                <input type="email" id="eml" name="eml" placeholder="your@email.com">
+            </div>
+            <div>
+                <br>
+                <label for="phn">Phone</label>
+                <input type="tel" id="phn" name="phn" placeholder="+359885236225">
+            </div>
+            <div>
+                <br>
+                <label for="town">Town:</label>
+                <select id="town" name="town">
+                    <option value="Varna">Varna</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Pleven">Pleven</option>     
+                </select>
+                <div>
+                    <br>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="70">
+                </div>
+                <div>
+                    <br>
+                    <label for="lang">Programming language</label>
+                    <input list="languages" id="lang" name="lang">
+                    <datalist id="languages">
+                        <option value="Java"></option>
+                        <option value="PHP"></option>
+                        <option value="C#"></option>
+                        <option value="JavaScript"></option>
+                        <option value="Python"></option>
+                        <option value="Ruby"></option>
+                        <option value="Other"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <br>
+                    <label for="more_inf"></label>
+                    <textarea name="more_inf" id="more_inf" cols="20" rows="5"
+                        placeholder="More information..."></textarea>
+                </div>
+                <div>
+                    <br>
+                    <input type="checkbox" name="terms" id="terms" checked>
+                    <label for="terms">I agree the Terms and Conditions</label>
+                </div>
+                <div>
+                    <br>
+                    <label for="submit"></label>
+                    <input type="submit" name="submit" id="submit" value="Send">
+                </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

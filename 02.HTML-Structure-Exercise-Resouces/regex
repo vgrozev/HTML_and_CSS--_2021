@@ -1,0 +1,26 @@
+removes:
+
+	only tags:
+</?div.*?(.|[\n])*?>
+</?span.*?(.|[\n])*?>
+
+	tags with all in them:
+<style.*?(.|[\n])*?</style>
+<ul.*?(.|[\n])*?</ul>
+<label.*?(.|[\n])*?</label>
+<script.*?(.|[\n])*?</script>
+<table.*?(.|[\n])*?</table>
+
+self closing tags:
+<link.*?(.|[\n])*?>
+<meta.*?(.|[\n])*?>
+<img.*?(.|[\n])*?>
+
+atributes: 
+class="?(.|[\n])*?"
+id="?(.|[\n])*?"
+title="?(.|[\n])*?"
+style="?(.|[\n])*?">
+
+	general: 
+(<footer)(.*?(.|\n)*?)(/footer>)
