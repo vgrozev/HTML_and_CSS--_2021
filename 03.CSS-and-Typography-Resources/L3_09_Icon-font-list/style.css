@@ -1,0 +1,13 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+html{
+    padding: 80px;
+}
+
+.icons {
+    list-style-type: none;
+}
+
+li {
+    line-height: 1.5;
+}
