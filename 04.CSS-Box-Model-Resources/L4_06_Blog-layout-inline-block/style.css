@@ -1,0 +1,33 @@
+html {
+  font-family: Helvetica, sans-serif;
+  color: rgb(51, 51, 51);
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  color: rgb(51, 51, 51);
+}
+
+body {
+  background: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+article,
+aside {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0% 1% 0% 1%;
+}
+
+article {
+  width: 60%;
+}
+
+img {
+  width: 56%;
+  height: auto;
+}

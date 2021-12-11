@@ -1,0 +1,24 @@
+body {
+  background: #eeeeee;
+}
+
+main {
+  max-width: 90%;
+  padding: 2% 10%;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px;
+  margin: 5px;
+  border-width: 0.4rem;
+  border-color: black;
+  border-style: solid;
+  background: white;
+  max-width: 300px;
+}
+
+img {
+  width: 100%;
+}
