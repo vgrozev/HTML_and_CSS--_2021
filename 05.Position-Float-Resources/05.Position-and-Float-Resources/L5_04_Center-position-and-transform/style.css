@@ -1,0 +1,60 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    max-width: 450px;
+    box-shadow: 1px 1px 7px 2px grey;
+    border-radius: 6px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart-image img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    max-height: 250px;
+    object-fit: cover;
+    position:  absolute;
+    top: -239px;
+}
+
+.cart-image {
+    position: relative;
+}
+
+.card-content {
+    padding: 30px;
+    text-align: right;
+}
+
+.card-content-description {
+    font-size: .7em;
+    margin-bottom: 20px;
+}
+
+.card-content-title, .card-content-description {
+    text-align: left;
+}
+
+.btn {
+    background: rgb(0, 153, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 0.8em;
+}
+
