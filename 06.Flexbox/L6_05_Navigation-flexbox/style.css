@@ -1,0 +1,17 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+  }
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 20px;
+}
+
