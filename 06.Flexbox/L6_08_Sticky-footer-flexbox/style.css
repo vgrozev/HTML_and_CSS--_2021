@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: rgb(238, 238, 238);
+    height:  100vh;
+    font-family: Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+main {
+    flex-grow: 1;
+    min-height: auto;
+}
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    margin: 3px;
+    padding-left: 10px;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
